@@ -202,8 +202,7 @@ footer {
 
 .slider-value {
   position: absolute;
-  top: -25px;
-  left: 50%;
+  top: -13px;
   transform: translateX(-50%);
   background: var(--secondary-color);
   color: white;
@@ -211,6 +210,8 @@ footer {
   border-radius: 4px;
   font-size: 0.9rem;
   font-weight: 600;
+  white-space: nowrap;
+  z-index: 10;
 }
 
 .slider-labels {
