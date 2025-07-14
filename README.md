@@ -36,32 +36,6 @@ Financial Doom is just lighthearted retirement calculator. While most financial 
 - **DOOMED** (10-20 years): Time for drastic changes! 💀
 - **CATASTROPHIC** (<10 years): Emergency mode activated! 🚨
 
-## Getting Started
-
-### Prerequisites
-- Node.js (v16 or higher)
-- npm or yarn
-
-### Installation
-
-```bash
-# Clone the repository
-git clone <repository-url>
-cd financial-doom
-
-# Install dependencies
-npm install
-
-# Start the development server
-npm run dev
-```
-
-### Building for Production
-
-```bash
-npm run build
-```
-
 ## Technology Stack
 
 - **Frontend**: React 19 + TypeScript
@@ -69,30 +43,9 @@ npm run build
 - **Styling**: CSS with modern features
 - **Type Safety**: Comprehensive TypeScript definitions
 
-## Configuration
-
-The app includes configurable constants in `src/constants/index.ts`:
-
-- Return rate ranges (3-8% with 0.5% steps)
-- Doom level thresholds
-- Fortune event probabilities
-- Mathematical constants for calculations
-
 ## Why "Financial Doom"?
 
 Most financial planning tools are intimidatingly serious or overly optimistic. Financial Doom takes a different approach – it tells you the truth about your financial situation with humor and memorable scenarios. The app's personality makes financial planning more engaging while still providing accurate, actionable insights.
-
-## Contributing
-
-This was a weekend project, but contributions are welcome! Please feel free to:
-- Report bugs
-- Suggest new fortune events
-- Improve the UI/UX
-- Add new calculation features
-
-## License
-
-ISC License - feel free to use this code for your own projects!
 
 ---
 
