@@ -1,0 +1,23 @@
+:root {
+  --primary-color: #ff4757;
+  --secondary-color: #5352ed;
+  --text-color: #2f3542;
+  --background-color: #f1f2f6;
+  --safe-color: #2ed573;
+  --concerning-color: #ffa502;
+  --doomed-color: #ff6b81;
+  --catastrophic-color: #ff4757;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Rubik', sans-serif;
+  background-color: var(--background-color);
+  color: var(--text-color);
+  line-height: 1.6;
+}
